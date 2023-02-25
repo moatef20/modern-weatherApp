@@ -1,0 +1,39 @@
+/* start global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.home{
+    background-image: url(../img/eugene-lim-w74T9SFYyHc-unsplash\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cardView{
+    background:#9696966f;
+    border: solid 1px #fbf7f4;
+    padding: 10px 10px;
+    border-radius: 9px;
+    
+}
+.countryName{
+    font-size: 30px;
+}
+.tempNum{
+    font-size: 50px;
+}
+.weatherInfo{
+    font-size: 12px;
+}
+footer p{
+    font-size: 12px;
+}
+/* end global style */

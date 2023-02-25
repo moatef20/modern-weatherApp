@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fontawsom -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>weather to Day</title>
+</head>
+<body>
+    <section class="home vh-100 d-flex justify-content-center align-items-center">
+        <div class="container ">
+            <div class="row weatherView">
+                <div class="toDay col-md-6 m-auto">
+                    <div class="cardView shadow-lg">
+                        <div class="card-body rounded-3 text-white">
+                            <div class="search d-flex justify-content-center align-items-center">
+                                <input type="text" class="searchInput form-control rounded-pill bg-dark bg-opacity-50 text-white" placeholder="Search by country..." aria-label="Search">
+                                <button class="btn btn-outline-dark ms-1 rounded-circle bg-dark bg-opacity-50 border-white" type="button"><i class="fas fa-search"></i></button>
+                            </div>
+                            <div class="dayInfo d-flex justify-content-between align-items-center my-2 px-2">
+                                <span>Friday</span>
+                                <span>25/02/2023</span>
+                            </div>
+                            <h5 class="card-title my-md-2">weather in <span class="countryName">Cairo</span></h5>
+                            <div class="tempInfo d-flex align-items-center">
+                                <h2 class="tempDegre"><span class="tempNum">20</span>℃</h2>
+                                <i class="fa-solid fa-cloud-moon fa-2x ms-3"></i>
+                            </div>
+                            <div class="weatherInfo">
+                                <i class="fa-solid fa-cloud-rain"></i>
+                                <span class="airInfo">Broken Cloud</span>
+                                <p class="Humidity mb-0">Humidity: <span>66%</span></p>
+                                <p class="Wind mb-0">Wind: <span>3.6</span>Km/h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forCast col-md-6 d-flex flex-column justify-content-between">
+                    <div class="cardView text-white">
+                        <h6>For some reason you should be know:</h6>
+                        <p class="">weather tomorrow: <span>20</span>℃ - <span>10</span>℃ </p>
+                        <span><i class="fa-solid fa-cloud"></i> Most Cloud</span>
+                    </div>
+                    <div class="cardView text-white">
+                        <h6>For some reason you should be know also:</h6>
+                        <p class="">The weather after tomorrow: <span>20</span>℃ - <span>10</span>℃ </p>
+                        <span><i class="fa-solid fa-cloud"></i> Most Cloud</span>
+                    </div>
+                </div>
+                <input type="text" class="newsLetter form-control w-50 mt-5 rounded-pill bg-body-tertiary bg-opacity-50 text-white" placeholder="Subscripe now for Wather update" aria-label="Search">
+            </div>
+        </div>
+     
+    </section>
+   <footer class="p-2 d-flex align-items-center justify-content-between">
+    <p class="mb-0">Copyright 2023 Company name. Designed by MAtef. All rights reserved</p>
+   </footer>
+    <!-- scrept file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
